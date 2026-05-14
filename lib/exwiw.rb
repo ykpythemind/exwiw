@@ -8,6 +8,7 @@ require "serdes"
 require_relative "exwiw/belongs_to"
 require_relative "exwiw/table_column"
 require_relative "exwiw/table_config"
+require_relative "exwiw/embedded_in"
 require_relative "exwiw/mongodb_field"
 require_relative "exwiw/mongodb_collection_config"
 require_relative "exwiw/adapter"
@@ -20,6 +21,7 @@ require_relative "exwiw/mongo_query"
 require_relative "exwiw/query_ast"
 require_relative "exwiw/query_ast_builder"
 require_relative "exwiw/runner"
+require_relative "exwiw/schema_generator"
 
 begin
   require 'rails'
